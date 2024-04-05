@@ -1,0 +1,169 @@
+ %%%%%%%%%%%%%%%---SYNOPSIS--%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,a4paper,oneside]{report}
+%\documentclass[12pt,a4paper,twoside]{book}
+\usepackage{chngcntr}
+%\counterwithin{figure}{chapter}
+%\usepackage[nottoc]{tocbibind}
+\usepackage{changepage}
+\pagestyle{plain}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage{titlesec}
+\usepackage{epsf}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{epstopdf}
+\usepackage{comment}
+\usepackage[hidelinks]{hyperref}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{upquote}
+%\usepackage[titletoc]{appendix}
+\usepackage{enumerate}
+\usepackage{lipsum}
+\usepackage[a4paper, inner=1.5cm, outer=3cm, top=2cm,bottom=3cm, bindingoffset=1cm]{geometry}
+\textheight=235mm
+\textwidth=145mm
+\topmargin=0mm
+\headheight=0mm
+\headsep=0mm
+\oddsidemargin=15mm
+\evensidemargin=15mm
+\makeindex
+\makeglossary
+\graphicspath{{./figures/}}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage[]{setspace}
+\singlespacing
+\usepackage{amssymb}
+\setstretch{1}
+\usepackage{cite}
+\linespread{1.3}
+\renewcommand{\thesection}{\arabic{section}}
+\usepackage[english]{babel}
+\addto{\captionsenglish}{%
+  \renewcommand{\bibname}{\LARGE References}
+}
+
+%***********************************************************
+
+\begin{document}
+\newgeometry{top=1in,bottom=1in,right=1in,left=1in}
+\thispagestyle{empty}
+\begin{center}
+    {\textbf{\textit{Report of}\\}}
+   {\Large\bf{Project Title} \\}
+
+			    
+			       \vspace{0.3in}
+			     
+			      
+  {\textbf{\textit  {A report to be submitted by\\}}}
+		       
+		       % \vspace{0.3 in}
+
+	%	       {\bf\textit{to be submitted by}}
+
+			     \vspace{0.4in}
+			    {\large \bf Name 1 \\
+			    Reg. No. XXXXXXX\\
+                Name 2 \\
+			    Reg. No. XXXXXXX\\
+                
+                Batch No. XYZ\\
+                }
+			 
+			  \vspace{0.3 in}
+
+		    %   {\bf\textit{for the award of the degree of}}
+		       
+		       \vspace{0.3 in}
+
+		      % {\bf\textit{of}}
+		       
+		     %  \vspace{0.3in}
+			    {\Large{\bf Bachelor of Technology \\ in \\Information and Communication Technology}\\}
+                   \vspace{0.3in}
+                {\bf\textit{Submitted To\\ }}
+			{\Large{\bf Prof. Name}\\}		    
+                \vspace{0.3in}
+	      \includegraphics[width=0.60\linewidth]{logo.png}
+
+
+			   %\vspace{0.2in}
+		     {\large\bf Manipal Institute of Technology\\}
+   
+			 {\large\bf  Manipal Academy of Higher Education \\}
+			     {\large\bf Manipal, Karnataka-576104, India \\}
+			     {\large\bf  April, 2024 }
+\end{center}
+\date{02-04-2024}
+\setcounter{page}{0}
+
+
+
+\tableofcontents
+
+\newpage
+\section{Introduction}
+\lipsum[2-4]\cite{shaoo2020}
+
+
+
+
+
+
+
+% A promising  approach is the measurement of ultrasonic velocity
+%**************************************************************
+\section{Literature Survey}
+\lipsum[2-4]
+
+
+\section{Proposed Methodology}
+This research investigates......
+\begin{itemize}
+  \item Diagram 
+  \item Algorithm or Flowchart
+  \item Explanation
+  
+\end{itemize}
+
+
+
+
+
+%***************************************************************
+\section{Conclusion}
+
+\begin{itemize}
+    \item summary of contribution1
+    
+    \item summary of contribution2
+    
+    \item summary of contribution3
+    
+    \item summary of contribution4
+\end{itemize}
+%****************************************************************
+%\section{Conclusions}
+
+%****************************************************************
+
+%\pagebreak 
+%****************************************************************
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{unsrt}
+\bibliography{ref}
+%\nocite{*}
+
+\end{document}
+%*****************END*********
